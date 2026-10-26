@@ -8,6 +8,7 @@ import { CustomizerControls } from './components/CustomizerControls';
 import { MuniraScriptGenerator } from './components/MuniraScriptGenerator';
 import { AudioRecordingsList } from './components/AudioRecordingsList';
 import { Volume2, Sparkles, Sliders, Mic, Disc, Headphones, Info, ShieldCheck } from 'lucide-react';
+import muniraAvatar from './assets/images/munira_avatar_portrait_1793034637420.jpg';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<string>('studio');
@@ -216,7 +217,7 @@ export default function App() {
               <div className="relative group w-full max-w-xs rounded-xl overflow-hidden border border-zinc-800/90 bg-[#141624] shadow-xl">
                 <div className="relative aspect-square overflow-hidden bg-zinc-900">
                   <img
-                    src="/src/assets/images/munira_avatar_portrait_1793034637420.jpg"
+                    src={muniraAvatar || "/assets/images/munira_avatar_portrait_1793034637420.jpg"}
                     alt="Portrait de Munira dans son studio vocal"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
