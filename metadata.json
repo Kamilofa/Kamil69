@@ -1,0 +1,6 @@
+{
+  "name": "Munira Voice Morph Studio",
+  "description": "Studio vocal interactif et sombre pour métamorphoser et personnaliser la voix au nom de Munira avec styles expressifs, DSP audio temps réel et égalisation avancée.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
